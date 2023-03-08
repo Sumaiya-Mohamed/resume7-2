@@ -1,0 +1,95 @@
+body{ 
+    margin: 35px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    a{
+        color: rgb(177, 115, 115);
+    }
+    .a{
+        color: black;
+    }
+    h4{
+        color:rgb(175, 125, 59);
+        font-size: larger;
+    }
+  h2{
+     color:rgb(175, 125, 59)
+   }
+  #container{
+  display: flex;
+  flex-direction: column;
+    }
+
+  #box1{
+  flex: 3;
+  }
+
+  #box2{
+  flex: 2;
+  }
+
+  #box3{
+  flex: 4;
+  }
+
+  #box4{
+  flex: 4;
+  }
+ 
+
+  header{
+    border-style: ridge;
+  }
+
+  .hero-image{
+    filter: blur(2px);
+    background-image:url("../images/original.jpg");
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: bisque;
+  }
+
+  .hero-text1 {
+    text-align: center;
+    position: absolute;
+    bottom: -50%;
+    left: 15%;
+    color: white;
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+  .hero-text2 {
+    text-align: center;
+    position: absolute;
+    bottom: -70%;
+    left: 40%;
+    color: white;
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+  
+  section{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 25px;
+  }
+
+  footer{
+    padding-left: 45px;
+   padding-right: 25px;
+  }
+
+  .form{
+  border-style: groove;
+  border-color: blanchedalmond;
+  border-width: 3px;
+  margin: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  }
